@@ -1,16 +1,20 @@
+import facebookView from './views/facebook.html'
+import googleView from './views/google.html'
+import twitterView from './views/twitter.html'
+
 function config($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/");
 
     $stateProvider
         .state('facebook', {
             url: "/facebook",
-            templateUrl: "views/facebook.html"
+            template: facebookView
         }).state('google', {
             url: "/google",
-            templateUrl: "views/google.html"
+            template: googleView
         }).state('twitter', {
             url: "/twitter",
-            templateUrl: "views/twitter.html"
+            template: twitterView
         });
 }
 
