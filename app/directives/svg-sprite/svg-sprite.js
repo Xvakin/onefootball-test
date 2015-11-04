@@ -1,5 +1,6 @@
 import angular from 'angular';
-import {SvgSpriteDirective} from './svg-sprite.directive.js';
+import {SvgSpriteDirective} from './svg-sprite.directive';
+import './images/images';
 
 let svgSpriteModule = angular.module('svgSprite', [
     'ui.router'

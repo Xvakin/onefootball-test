@@ -2,9 +2,28 @@
     cursor: pointer;
     display: inline-block;
     height: 30px;
+    transition: fill 0.3s, transform 0.3s;
+    transform-style: preserve-3d;
     width: 30px;
+}
+
+.svg-sprite[symbol-id='facebook'] {
+    fill: #527DBC;
+}
+
+.svg-sprite[symbol-id='google'] {
+    fill: #D94A3B;
+}
+
+.svg-sprite[symbol-id='twitter'] {
+    fill: #68CDEF;
+}
+
+.svg-sprite:hover {
+    transform: rotateY(180deg);
 }
 
 .svg-sprite.is-active {
     fill: #32b846;
 }
+
