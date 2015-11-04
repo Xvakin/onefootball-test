@@ -1,8 +1,17 @@
 class SvgSpriteController {
-    constructor() {
+    constructor($state) {
+        this.$state = $state;
+    }
+
+    onClick() {
+        this.$state.go(this.symbolId);
+    }
+
+    isActive() {
+        return this.$state.current.name === this.symbolId;
     }
 }
 
-//SvgSpriteController.$inject = ['$scope'];
+SvgSpriteController.$inject = ['$state'];
 
 export {SvgSpriteController};

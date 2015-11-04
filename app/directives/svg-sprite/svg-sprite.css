@@ -1,0 +1,10 @@
+.svg-sprite {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.svg-sprite.is-active {
+    fill: #32b846;
+}
