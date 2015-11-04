@@ -5,7 +5,7 @@ import {svgSpriteModule} from './directives/svg-sprite/svg-sprite.js'
 import {config} from './config.js'
 
 angular.module('app', [
-    'ui.router',
+    angularUiRouter,
     svgSpriteModule.name
 ]);
 
