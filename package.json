@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --content-base app/",
     "test": "karma start ./karma.conf.js --single-run",
-    "build": "npm test && rm -rf build && webpack -p"
+    "build": "npm test && webpack -p"
   },
   "repository": {
     "type": "git",
