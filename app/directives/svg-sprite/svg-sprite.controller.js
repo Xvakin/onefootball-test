@@ -1,3 +1,4 @@
+// svg-sprite directive controller
 class SvgSpriteController {
     constructor($state) {
         this.$state = $state;

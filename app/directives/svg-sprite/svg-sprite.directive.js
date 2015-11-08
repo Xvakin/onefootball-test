@@ -1,3 +1,4 @@
+// svg-sprite directive declaration
 import template from './svg-sprite.html';
 import {SvgSpriteController as controller} from './svg-sprite.controller';
 

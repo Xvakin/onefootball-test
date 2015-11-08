@@ -1,3 +1,4 @@
+// App routing
 import facebookView from './views/facebook.html'
 import googleView from './views/google.html'
 import twitterView from './views/twitter.html'

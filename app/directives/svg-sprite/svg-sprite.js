@@ -1,3 +1,4 @@
+// svg-sprite module contains svg-sprite directive
 import angular from 'angular';
 import angularUiRouter from 'angular-ui-router';
 import {SvgSpriteDirective} from './svg-sprite.directive';
