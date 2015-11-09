@@ -1,6 +1,6 @@
 # OneFootbal Test Assignment
 
-[Live demo](http://xvakin.ru/onefootball/)
+[Live demo](http://onefootball.xvakin.ru/)
 
 To start developer server clone the repo, run `npm start` and navigate to [http://localhost:8080/](http://localhost:8080/):
 

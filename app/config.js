@@ -3,7 +3,9 @@ import facebookView from './views/facebook.html'
 import googleView from './views/google.html'
 import twitterView from './views/twitter.html'
 
-function config($stateProvider, $urlRouterProvider) {
+function config($stateProvider, $urlRouterProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
+
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
@@ -19,6 +21,6 @@ function config($stateProvider, $urlRouterProvider) {
         });
 }
 
-config.$inject = ['$stateProvider', '$urlRouterProvider'];
+config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
 export {config};
